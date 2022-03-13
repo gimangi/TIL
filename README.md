@@ -15,4 +15,18 @@
 
 - IoC
   - [IoC, Bean, DI](spring/ioc.md)
+- AOP
+  - [AOP](spring/aop.md)
+  - Proxy
+  - @AOP
+
 - [Lombok](spring/lombok.md)
+
+
+
+## Design Patterns
+
+- Creation Patterns
+  - [Factory Method](design_patterns/factory_method)
+- Structural Patterns
+- Behavioral Patterns
