@@ -13,18 +13,14 @@
 
 ## Spring
 
-- IoC
-  - [IoC, Bean, DI](spring/ioc.md)
-- AOP
-  - [AOP](spring/aop.md)
-  - Proxy
-  - @AOP
-
+- [IoC, Bean, DI](spring/ioc.md)
+- [AOP](spring/aop.md)
+- [PSA](spring/psa.md)
 - [Lombok](spring/lombok.md)
 
 
 
-## Design Patterns
+## GoF의 디자인 패턴
 
 - Creation Patterns
   - [Factory Method](design_patterns/factory_method)
