@@ -17,7 +17,11 @@
 
 ## Spring
 
-- [IoC, Bean, DI](spring/ioc.md)
+- Ioc
+  - [IoC](spring/ioc.md)
+  - [Bean](spring/bean.md)
+  - [DI](spring/di.md)
+
 - [AOP](spring/aop.md)
 - [PSA](spring/psa.md)
 - [Lombok](spring/lombok.md)
