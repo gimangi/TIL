@@ -9,7 +9,11 @@
   - [Maven](java/build_tool/maven.md)
   - [Gradle](java/build_tool/gradle.md)
 
+- [Thread](java/thread.md)
 
+- Lambda
+
+  
 
 ## Spring
 
