@@ -23,7 +23,33 @@
 
 ## 타겟 타입과 함수적 인터페이스
 
-자바는 클래스의 멤버로만 메소드를 선언할 수 있기 때문에 인터페이스의 익명 구현 객체를 생성
+- 자바는 클래스의 멤버로만 메소드를 선언할 수 있기 때문에 인터페이스의 익명 구현 객체를 생성
+
+- 타겟 타입 (target type)
+  - 람다식이 대입될 인터페이스
+  - 하나의 추상 메소드만 선언되어 있어야함
 
 
 
+- `@FunctionalInterface` : 두 개 이상의 추상 메소드가 선언되지 않도록 컴파일러가 체킹 (필수 x)
+
+  ```java
+  @FunctionalInterface
+  public interface MyFunctionalInterface {
+    public int method(int x, int y);
+  }
+  ```
+
+  ```java
+  MyFunctionalInterface fi = (x, y) -> {
+    return x + y;
+  };
+  System.out.println(fi.method(2, 5));
+  ```
+
+
+
+## 클래스 멤버와 로컬 변수 사용
+
+- 람다식에서 `this`는 내부적으로 생성되는 익명 객체의 참조가 아니라 **람다식을 실행한 객체**
+- 

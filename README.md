@@ -10,7 +10,8 @@
   - [Gradle](java/build_tool/gradle.md)
 - [Thread](java/thread.md)
 - Handler
-- Lambda
+- Generic
+- [Lambda](java/lambda.md)
 - Annotation
 
 
@@ -30,6 +31,7 @@
 
 - [AOP](spring/aop.md)
 - [PSA](spring/psa.md)
+- [Servlet](spring/servlet.md)
 - [Lombok](spring/lombok.md)
 
 
@@ -40,3 +42,8 @@
   - [Factory Method](design_patterns/factory_method)
 - Structural Patterns
 - Behavioral Patterns
+
+
+
+## Distributed File System
+
