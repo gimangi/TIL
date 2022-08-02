@@ -34,6 +34,9 @@
 - [Servlet](spring/servlet.md)
 - [Lombok](spring/lombok.md)
 - [MVC](spring/mvc.md)
+- Validation
+  - [Bean Validation](spring/bean_validation.md)
+
 
 
 
